@@ -8,7 +8,7 @@ export default function Home() {
     const getFilm = () => {
         axios({
             method: 'GET',
-            url: "http://movie0706.cybersoft.edu.vn//api/QuanLyPhim/LayDanhSachPhim",
+            url: "https://movie0706.cybersoft.edu.vn//api/QuanLyPhim/LayDanhSachPhim",
         })
             .then(res => {
                 console.log('Kết quả: ', res);

@@ -40,3 +40,11 @@ export default App;
 
 {/* <Route exact path='*' component={PageNotFound}></Route> */}
 // ngoài những trang đã tạo, gõ đại 1 trang chưa có tạo thì sẽ vào trang pagenotfound
+
+
+// Buổi 9:
+//  - Tạo router cho các page
+//  - Cách sử dụng hook
+//  - Tại trang Home: tạo 1 button khi click vào nó sẽ lấy danh sách phim về (lấy từ API)
+//  - Tại trang Login: tạo 2 ô input là user và password, đăng nhập thành công chuyển qua trang Home, thất bại thì thông báo
+//  - Tại trang Profile: phải đăng nhập rồi thì mới vào trang Profile còn chưa đăng nhập đá về trang Login
